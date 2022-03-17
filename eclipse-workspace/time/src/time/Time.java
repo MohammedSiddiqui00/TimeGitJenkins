@@ -31,7 +31,7 @@ public class Time
 			"Enter a time in the format hh:mm:ss", "Enter Time",
 			JOptionPane.QUESTION_MESSAGE);
 		
-		int totalSeconds = getTotalSeconds(time);
+		int totalSeconds = getTotalSeconds("Github 10:10:10");
 		JOptionPane.showMessageDialog(null, totalSeconds, "Total Seconds",
 			JOptionPane.INFORMATION_MESSAGE);
 		}
