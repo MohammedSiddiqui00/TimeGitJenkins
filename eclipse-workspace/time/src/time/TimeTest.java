@@ -29,10 +29,7 @@ class TimeTest {
 
 	
 	
-	@Test
-	void testGetSeconds() {
-		fail("Not yet implemented");
-	}
+
 
 	@ParameterizedTest
 	@ValueSource( strings = {"05:03:00", "05:03:59"})
